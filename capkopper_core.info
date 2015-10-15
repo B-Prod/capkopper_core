@@ -8,6 +8,7 @@ dependencies[] = entityform
 dependencies[] = hide_php_fatal_error
 dependencies[] = honeypot
 dependencies[] = honeypot_entityform
+features[defaultconfig][] = strongarm:cron_safe_threshold
 features[defaultconfig][] = strongarm:honeypot_element_name
 features[defaultconfig][] = strongarm:honeypot_form_user_pass
 features[defaultconfig][] = strongarm:honeypot_form_user_register_form
