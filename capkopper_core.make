@@ -52,12 +52,12 @@ projects[hide_php_fatal_error][version] = 1.0
 projects[hide_php_fatal_error][subdir] = contrib
 
 ; Honeypot
-projects[honeypot][subdir] = "contrib"
-projects[honeypot][version] = "1.18"
+projects[honeypot][subdir] = contrib
+projects[honeypot][version] = 1.21
 
 ; Honeypot Entityform
-projects[honeypot_entityform][subdir] = "contrib"
-projects[honeypot_entityform][version] = "1.0"
+projects[honeypot_entityform][subdir] = contrib
+projects[honeypot_entityform][version] = 1.0
 
 ; Panels Custom Error
 projects[panels_customerror][version] = 1.0
