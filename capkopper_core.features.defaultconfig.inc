@@ -24,6 +24,13 @@ function capkopper_core_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'cron_safe_threshold';
+  $strongarm->value = '0';
+  $export['cron_safe_threshold'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'honeypot_element_name';
   $strongarm->value = 'email';
   $export['honeypot_element_name'] = $strongarm;
