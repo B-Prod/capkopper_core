@@ -1,7 +1,7 @@
 name = capKopper Core
 core = 7.x
 package = capKopper
-version = 7.x-1.0-rc2
+version = 7.x-1.0-rc4
 dependencies[] = defaultconfig
 dependencies[] = diff
 dependencies[] = entityform
