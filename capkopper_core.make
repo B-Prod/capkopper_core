@@ -4,11 +4,8 @@ api = 2
 core = 7.x
 
 ; Chosen
-projects[chosen][version] = 2.x-dev
+projects[chosen][version] = 2.0-beta5
 projects[chosen][subdir] = contrib
-projects[chosen][download][type] = git
-projects[chosen][download][branch] = 7.x-2.x
-projects[chosen][download][revision] = c48c8a
 
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.0.0/chosen_v1.0.0.zip"
@@ -53,7 +50,7 @@ projects[hide_php_fatal_error][subdir] = contrib
 
 ; Honeypot
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.21
+projects[honeypot][version] = 1.22
 
 ; Honeypot Entityform
 projects[honeypot_entityform][subdir] = contrib
@@ -72,16 +69,8 @@ projects[reference_option_limit][download][revision] = 8a5f264
 projects[reference_option_limit][patch][1986526] = https://www.drupal.org/files/issues/reference_option_limit-1986526-34_0.patch
 
 ; Select 2 Widget
-; projects[select2widget][version] = 2.7
+ projects[select2widget][version] = 2.9
 projects[select2widget][subdir] = contrib
-projects[select2widget][version] = 2.x-dev
-projects[select2widget][subdir] = contrib
-projects[select2widget][download][type] = git
-projects[select2widget][download][branch] = 7.x-2.x
-projects[select2widget][download][revision] = eb87c27
-projects[select2widget][patch][2404175] = https://www.drupal.org/files/issues/2404175-select2widget-og_complex-2.patch
-projects[select2widget][patch][2503787] = https://www.drupal.org/files/issues/select2widget_add_support_for_og_vocab-2503787-4.patch
-projects[select2widget][patch][2503789] = https://www.drupal.org/files/issues/select2widget_error_from_placeholder-2503789-1.patch
 
 libraries[select2][download][type] = "get"
 libraries[select2][download][url] = "https://github.com/ivaynberg/select2/archive/3.5.2.tar.gz"
@@ -89,8 +78,5 @@ libraries[select2][directory_name] = "select2"
 libraries[select2][destination] = "libraries"
 
 ; Views Load More
-projects[views_load_more][version] = 1.x-dev
+projects[views_load_more][version] = 1.5
 projects[views_load_more][subdir] = contrib
-projects[views_load_more][download][type] = git
-projects[views_load_more][download][branch] = 7.x-1.x
-projects[views_load_more][download][revision] = 28de384
